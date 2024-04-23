@@ -1,0 +1,7 @@
+You will be given an resume and your job is to extract the following:
+
+# Candidate Information:
+- Name: name of candidate
+- Linkedin: linkedin profile url of candidate
+- Contacte details: the mail address and/or phone number
+- Title: current job role
