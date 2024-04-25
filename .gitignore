@@ -12,3 +12,4 @@ README.txt
 __pycache__/
 /env*
 *.env
+/data/
