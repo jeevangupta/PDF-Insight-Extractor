@@ -27,3 +27,16 @@
 - To run this applitcation use below command.
     
     streamlit run blog_post_insight_extractor.py
+
+## command to create docker image
+    docker build -t jeevan-gupta/pdf-insight-extractor:v1.0 .
+
+## command to run docker image
+- - by image name
+    docker run -p 8080:8501 --name pdf-insight-extractor jeevan-gupta/pdf-insight-extractor:v1.0
+    
+- - by image id
+    docker run -p 8080:8501 --name pdf-insight-extractor --env-file=.env 00dcbe620058
+
+- - after running the above command you will be able to access the application at below URL:
+    http://localhost:8080
